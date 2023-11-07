@@ -1,0 +1,519 @@
+//all year round:	basic (slot1), manniversary (slot2), robot (slot3), winter (slot1), zombie (slot2), hwn13 (slot3)
+//halloween:		halloween (gibus), hwn14  (bosses)
+//christmas:		winter2014
+"characters"
+{
+	"basic_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo1"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"basic_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer1"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"basic_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy1"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"basic_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic1"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"basic_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro1"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"basic_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout1"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"basic_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper1"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"basic_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier1"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"basic_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy1"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"manniversary_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo2"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"manniversary_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer2"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"manniversary_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy2"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"manniversary_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic2"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"manniversary_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro2"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"manniversary_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout2"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"manniversary_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper2"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"manniversary_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier2"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"manniversary_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy2"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"halloween_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo_hwn1"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer_hwn1"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy_hwn1"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic_hwn1"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro_hwn1"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout_hwn1"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper_hwn1"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier_hwn1"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"halloween_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy_hwn1"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"winter_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo1"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"winter_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer1"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"winter_heavy"
+	{
+		"image" "replay/thumbnails/menu/heavy/heavy1"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"winter_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic1"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"winter_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro1"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"winter_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout1"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"winter_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper1"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"winter_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier1"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"winter_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy1"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"robot_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo3"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"robot_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic3"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"robot_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro3"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"robot_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout3"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"robot_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper3"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"robot_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier3"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"robot_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy3"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"robot_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy3"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Robot_Heavy"
+	}
+	"zombie_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo2"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"zombie_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer2"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"zombie_heavy"
+	{
+		"image" "replay/thumbnails/menu/heavy/heavy2"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"zombie_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic2"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"zombie_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro2"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"zombie_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout2"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"zombie_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper2"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"zombie_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier2"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"zombie_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy2"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"hwn13_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo3"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"hwn13_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer3"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+	}
+	"hwn13_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy3"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"hwn13_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic3"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+	}
+	"hwn13_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro3"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+	}
+	"hwn13_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout3"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+	}
+	"hwn13_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper3"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"hwn13_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier3"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"hwn13_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy3"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"hwn14_demoman"
+	{
+		"image"	"replay/thumbnails/menu/hwn/merasmus"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_engineer"
+	{
+		"image"	"replay/thumbnails/menu/hwn/eye"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_heavy"
+	{
+		"image"	"replay/thumbnails/menu/hwn/skeleton"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_medic"
+	{
+		"image"	"replay/thumbnails/menu/hwn/hhh"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_pyro"
+	{
+		"image"	"replay/thumbnails/menu/hwn/duck"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_scout"
+	{
+		"image"	"replay/thumbnails/menu/hwn/eye"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_sniper"
+	{
+		"image"	"replay/thumbnails/menu/hwn/merasmus"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_soldier"
+	{
+		"image"	"replay/thumbnails/menu/hwn/skeleton"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn14_spy"
+	{
+		"image"	"replay/thumbnails/menu/hwn/hhh"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"eotl_soldier"
+	{
+		"image"	"replay/thumbnails/menu/logo"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}	
+	"winter2014_demoman"
+	{
+		"image"	"replay/thumbnails/menu/demo/demo_xmas"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_engineer"
+	{
+		"image"	"replay/thumbnails/menu/engineer/engineer_xmas"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_heavy"
+	{
+		"image"	"replay/thumbnails/menu/heavy/heavy_xmas"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_medic"
+	{
+		"image"	"replay/thumbnails/menu/medic/medic_xmas"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_pyro"
+	{
+		"image"	"replay/thumbnails/menu/pyro/pyro_xmas"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_scout"
+	{
+		"image"	"replay/thumbnails/menu/scout/scout_xmas"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_sniper"
+	{
+		"image"	"replay/thumbnails/menu/sniper/sniper_xmas"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_soldier"
+	{
+		"image"	"replay/thumbnails/menu/soldier/soldier_xmas"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"christmas"
+	}
+	"winter2014_spy"
+	{
+		"image"	"replay/thumbnails/menu/spy/spy_xmas"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"christmas"
+	}
+}

@@ -1,0 +1,22 @@
+"chapters"
+{
+	1	"background_2fort"		//ctf
+	2	"background_badlands"	//5cp
+	3	"background_dustbowl"	//a&d
+	4	"background_viaduct"	//koth
+	5	"background_hightower"	//plr
+	6	"background_hydro"		//tc
+	7	"background_upward"		//pl
+	8	"background_coaltown"	//mvm
+	9	"background_1"	
+	10	"background_2"	
+	11	"background_3"	
+	12	"background_4"	
+}
+"BackgroundMaps"
+{
+	1	"background_2fort"
+	2	"background_gravelpit"
+	3	"background_upward"
+	4	"background_mvm"
+}

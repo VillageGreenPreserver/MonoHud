@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/menu/logo"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+	"%keywords" "tf"
+
+
+	"startframe" "0"
+	"endframe" "95"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "30" 
+		}
+	}
+} 
+

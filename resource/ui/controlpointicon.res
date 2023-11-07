@@ -1,0 +1,117 @@
+"Resource/UI/ControlPointIcon.res"
+{
+	"ControlPointIcon"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointIcon"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"38"
+		"tall"		"38"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"Countdown"
+	{
+		"ControlName"	"CControlPointCountdown"
+		"fieldName"	"Countdown"
+		"xpos"		"11"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"11"
+		"tall"		"11"
+		"visible"	"1"
+		"enabled"	"1"
+	}	
+
+	"CapPlayerImage"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"CapPlayerImage"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"3"
+		"wide"		"10"
+		"tall"		"20"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"		"capture_icon"
+		"scaleImage"	"1"
+	}
+
+	"CapNumPlayers"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"CapNumPlayers"
+		"font"			"Futura12"
+		"xpos"			"20"
+		"ypos"			"4"
+		"zpos"			"4"
+		"wide"			"20"
+		"tall"			"33"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#ControlPointIconCappers"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+
+	"OverlayImage"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"OverlayImage"
+		"xpos"		"rs1"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"	"0"
+		"enabled"	"1"
+		"image"		"capture_icon"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+	
+	"CPTimerLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CPTimerLabel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"60"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"Futura64"
+	}
+
+	"CPTimerBG"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"CPTimerBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"33"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown_opaque"
+		"src_corner_height"		"60"
+		"src_corner_width"		"60"
+		"draw_corner_width"		"6"
+		"draw_corner_height" 	"6"
+		"scaleImage"	"1"	
+	}
+}
