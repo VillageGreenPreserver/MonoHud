@@ -20,47 +20,49 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"60"
+		"item_ypos"		"51"
 		"item_ydelta"	"80"
-		"item_mod_wide"	"40"
+		"item_mod_wide"	"0"
 		
 		"item_backpack_offcenter_x"		"-223"
-		"item_backpack_xdelta"			"1"
-		"item_backpack_ydelta"			"3"
+		"item_backpack_xdelta"			"0"
+		"item_backpack_ydelta"			"0"
 
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"284"
-		"page_button_x_delta" "3"
-		"page_button_y_delta" "3"
-		"page_button_per_row" "20"
+		"page_button_y"	"265"
+		"page_button_x_delta" "0"
+		"page_button_y_delta" "1"
+		"page_button_per_row" "10"
 		"page_button_height" "13"
 
 		"pagebuttons_kv"
 		{
 			"ControlName"	"EditablePanel"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"o5.4"
+			"tall"			"13"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
+			"proportionaltoparent"	"1"
 
 			"Button"
 			{
 				"fieldName"		"Button"
 				"ControlName"	"CExButton"
-				"wide"			"25"
+				"wide"			"44"
 				"tall"			"13"
 				"visible"		"1"
 				"armedBgColor_override"		"0 0 0 0"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
 				"PaintBackground"	"1"
+				"proportionaltoparent"	"1"
 				"Paintborder"	"1"
 				"border_default"		"BackpackItemBorder"
 				"border_armed"		"LoadoutItemMouseOverBorder"
@@ -102,18 +104,19 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"44" //54
-			"tall"			"36"
+			"wide"			"o1.09" //54
+			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
+			"proportionaltoparent"	"0"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"4"
-			"model_wide"	"43"
-			"model_tall"	"30"
+			"model_wide"	"40"
+			"model_tall"	"28"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -155,7 +158,7 @@
 			"use_item_sounds"	"1"
 		}
 	}
-	
+
 	"BG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -201,10 +204,10 @@
 		"font"			"Futura32"
 		"labelText"		"BACKPACK"
 		"textAlignment"	"center"
-		"xpos"			"7"
+		"xpos"			"7+s0.003"
 		"ypos"			"6+s0.02" //8
 		"zpos"			"1"
-		"wide"			"227"
+		"wide"			"178"
 		"tall"			"p0.091"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -249,17 +252,31 @@
 		"drawcolor"		"112 176 74 255"
 	}
 
+	"RarityBorder"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"0" //8
+		"zpos"			"0"
+		"wide"			"o6.4"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"MustaBrownBG"
+
+		"pin_to_sibling"	"ShowRarityComboBox"
+	}
 	"ShowRarityComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"font"				"Futura12"
 		"wrap"				"0"
-		"xpos"				"371" //371
-		"ypos"				"32"
+		"xpos"				"0" //371
+		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"168"
-		"tall"				"19"
+		"wide"				"o6.4"
+		"tall"				"22"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -270,6 +287,11 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
+		"paintBorder"		"0"
+		"border"		"MustaBrownBG"
+
+		"pin_to_sibling"	"SortByComboBox"
+		"pin_to_sibling_corner"	"2"
 		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"
@@ -285,20 +307,22 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
 		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"futura12"
 		"fgcolor"		"TanLight"
 		"textAlignment"	"east"
-		"xpos"			"601"
-		"ypos"			"8"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"112"
-		"tall"			"19"
+		"wide"			"o6.4"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"pin_to_sibling"	"SortByComboBox"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"NameFilterLabel"
@@ -325,11 +349,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"FilterBG"
-		"xpos"			"601"
-		"ypos"			"32"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"111"
-		"tall"			"19"
+		"wide"			"o6.4"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown_opaque"
@@ -339,17 +363,18 @@
 		"draw_corner_width"		"6"	
 		"draw_corner_height" 	"6"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"NameFilterTextEntry"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"602"
-		"ypos"		"32"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"110"
-		"tall"		"19"
+		"wide"		"o6.4"
+		"tall"		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -361,7 +386,9 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"251 235 202 0"
 		"paintbackgroundtype" "2"
-		"font"		"Futura14"
+		"font"		"Futura12"
+		"pin_to_sibling"	"ShowBaseItemsCheckbox"
+		"pin_to_sibling_corner"	"2"
 	}
 	
 	"SortByComboBox"
@@ -370,13 +397,14 @@
 		"fieldName"			"SortByComboBox"
 		"Font"				"HudFontSmallestBold"
 		"wrap"				"0"
-		"xpos"				"371"
-		"ypos"				"8"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"168"
-		"tall"				"19"
+		"wide"				"o6.4"
+		"tall"				"22"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"paintBorder"		"1"
 		"visible"			"1"
 		"enabled"			"1"
 		"textHidden"		"0"
@@ -385,6 +413,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
+
+		"border"		"MustaBrownBG"
+		"textinsetx"	"20"
+
+		"pin_to_sibling"	"BackpackLabel"
+		"pin_to_sibling_corner"	"1"
 		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"
@@ -586,7 +620,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToNextPageButton"
-		"xpos"			"724"
+		"xpos"			"r0"
 		"ypos"			"149"
 		"zpos"			"1"
 		"wide"			"22"
@@ -612,7 +646,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToPrevPageButton"
-		"xpos"			"108" //111
+		"xpos"			"r0" //111
 		"ypos"			"149"
 		"zpos"			"1"
 		"wide"			"22"
