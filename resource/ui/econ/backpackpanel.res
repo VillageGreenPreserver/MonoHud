@@ -20,11 +20,11 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"51"
+		"item_ypos"		"49"
 		"item_ydelta"	"80"
 		"item_mod_wide"	"0"
 		
-		"item_backpack_offcenter_x"		"-223"
+		"item_backpack_offcenter_x"		"-225"
 		"item_backpack_xdelta"			"0"
 		"item_backpack_ydelta"			"0"
 
@@ -33,16 +33,16 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"265"
+		"page_button_y"	"272"
 		"page_button_x_delta" "0"
-		"page_button_y_delta" "1"
+		"page_button_y_delta" "0"
 		"page_button_per_row" "10"
 		"page_button_height" "13"
 
 		"pagebuttons_kv"
 		{
 			"ControlName"	"EditablePanel"
-			"wide"			"o5.4"
+			"wide"			"13"
 			"tall"			"13"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
@@ -55,7 +55,7 @@
 			{
 				"fieldName"		"Button"
 				"ControlName"	"CExButton"
-				"wide"			"44"
+				"wide"			"45"
 				"tall"			"13"
 				"visible"		"1"
 				"armedBgColor_override"		"0 0 0 0"
@@ -97,20 +97,19 @@
 				"fgcolor"		"10 10 10 255"
 			}
 		}
-			
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"o1.09" //54
-			"tall"			"42"
+			"wide"			"45"
+			"tall"			"p0.12234706616729088639200998751561"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"proportionaltoparent"	"0"
+			"proportionaltoparent"	"1"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
@@ -166,8 +165,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"460"
+		"tall"			"356"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/color_panels/color_panel_brown_full_top"
@@ -204,11 +203,12 @@
 		"font"			"Futura32"
 		"labelText"		"BACKPACK"
 		"textAlignment"	"center"
-		"xpos"			"7+s0.003"
-		"ypos"			"6+s0.02" //8
+		"xpos"			"5"
+		"ypos"			"5" //8
 		"zpos"			"1"
-		"wide"			"178"
-		"tall"			"p0.091"
+		"wide"			"p0.39033816425120772946859903381643"
+		"proportionaltoparent"	"1"
+		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -258,7 +258,7 @@
 		"xpos"			"0"
 		"ypos"			"0" //8
 		"zpos"			"0"
-		"wide"			"o6.4"
+		"wide"			"135"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
@@ -275,7 +275,7 @@
 		"xpos"				"0" //371
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"o6.4"
+		"wide"				"135"
 		"tall"				"22"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -313,7 +313,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"o6.4"
+		"wide"			"135"
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -339,7 +339,7 @@
 		"tall"			"19"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 		"bgcolor_override"		"255 0 0 0"
@@ -352,7 +352,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"o6.4"
+		"wide"			"135"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
@@ -373,7 +373,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"o6.4"
+		"wide"		"135"
 		"tall"		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -400,7 +400,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"o6.4"
+		"wide"				"135"
 		"tall"				"22"
 		"autoResize"		"0"
 		"pinCorner"			"0"

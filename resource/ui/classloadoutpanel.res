@@ -6,7 +6,7 @@
 		"fieldName"		"class_loadout_panel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"460"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -18,9 +18,9 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-282" //107
-		"item_xpos_offcenter_b"	"112"
-		"item_ypos"		"31"
+		"item_xpos_offcenter_a"	"-49" //107
+		"item_xpos_offcenter_b"	"88"
+		"item_ypos"		"27"
 		"item_ydelta"	"81"
 		"item_mod_wide"	"0"
 		
@@ -38,9 +38,10 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"171"
-			"tall"			"76"
+			"wide"			"137"
+			"tall"			"81"
 			"visible"		"0"
+			"zpos"			"10"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
@@ -99,19 +100,19 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"BG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"133"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"54"
+		"wide"			"460"
 		"tall"			"356"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/color_panels/color_panel_brown_bottom_left"
+		"image"			"replay/thumbnails/color_panels/color_panel_brown_full_top"
 		"scaleImage"	"1"
 		"src_corner_height"		"60"
 		"src_corner_width"		"60"
@@ -119,26 +120,6 @@
 		"draw_corner_height" 	"6"
 		"proportionaltoparent"	"1"
 	}
-	
-	"BG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BG2"
-		"xpos"			"187" //133
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"534"
-		"tall"			"356"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/color_panels/color_panel_brown_loadout_right"
-		"scaleImage"	"1"
-		"src_corner_height"		"60"
-		"src_corner_width"		"60"
-		"draw_corner_width"		"6"	
-		"draw_corner_height" 	"6"
-		"proportionaltoparent"	"1"
-	}	
 	
 	"CaratLabel"
 	{
@@ -164,18 +145,19 @@
 		"fieldName"		"ClassLabel"
 		"font"			"Futura24"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"fgcolor"		"TanLight"
-		"xpos"			"cs-0.5"
-		"ypos"			"1"
+		"xpos"			"5"
+		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"200"
-		"tall"			"28"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"allcaps"		"1"
 	}
 
 	"TauntCaratLabel"
@@ -254,10 +236,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"modelBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"53"
-		"wide"			"200"
-		"tall"			"252"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"175"
+		"tall"			"243"
 		"zpos"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -267,25 +249,27 @@
 		"PaintBackground"	"1"
 		"bgcolor_override"			"0 0 0 70"
 		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"classmodelpanel"
 	}
 	
 	"modelBorder"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"modelBorder"
-		"xpos"			"cs-0.5"
-		"ypos"			"53"
-		"wide"			"200"
-		"tall"			"252"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"175"
+		"tall"			"243"
 		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		"proportionaltoparent"	"1"
 		"PaintBackground"	"0"
 		"border"			"MustaBrownBorder"
 		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"classmodelpanel"
 	}
 	
 	"classmodelpanel"
@@ -293,15 +277,16 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"cs-0.5"
-		"ypos"			"53"
+		"xpos"			"5"
+		"ypos"			"27"
 		"zpos"			"1"		
-		"wide"			"200"
-		"tall"			"252"
+		"wide"			"175"
+		"tall"			"243"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		
 		"border"	"MustaBrownBG"
 		
@@ -470,11 +455,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"Futura8"
-		"xpos"			"cs-0.5"
-		"ypos"			"305" //327
+		"xpos"			"0"
+		"ypos"			"22" //327
 		"zpos"			"10"	
-		"wide"			"200"
-		"tall"			"44"
+		"wide"			"175"
+		"tall"			"59"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -485,14 +470,170 @@
 		"fgcolor"		"255 215 0 255"
 		"border"		"MustaBrownBG"
 		"centerwrap"	"1"	
+
+		"pin_to_sibling"	"classmodelpanel"
+		"pin_to_sibling_corner"	"2"
 	}
+	
+	"dummy1"
+	{
+		"ControlName"	"panel"
+		"xpos"			"0"
+		"ypos"			"-243"
+		"wide"			"22"
+		"tall"			"22"
+		"pin_to_sibling"	"classmodelpanel"
+	}
+	
+	"dummy2"
+	{
+		"ControlName"	"panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"22"
+		"tall"			"22"
+		"pin_to_sibling"	"dummy1"
+		"pin_to_sibling_corner"	"1"
+	}
+	
+	"dummy3"
+	{
+		"ControlName"	"panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"22"
+		"tall"			"22"
+		"pin_to_sibling"	"dummy2"
+		"pin_to_sibling_corner"	"1"
+	}
+	
+	"dummy4"
+	{
+		"ControlName"	"panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"22"
+		"tall"			"22"
+		"pin_to_sibling"	"dummy3"
+		"pin_to_sibling_corner"	"1"
+	}
+
+	"CharacterLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CharacterLoadoutButton"
+		"labelText"		""
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"characterloadout"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"	"dummy4"
+		"pin_to_sibling_corner"	"1"
+		
+		"border_selected"		"MustaBrownBG"
+		"border_depressed"		"MustaBrownBG"
+		"border_armed"			"MustaBrownBG"
+		"border_default"		"MustaBrownBG"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"236 227 203 255"
+		
+		"paintbackground"	"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/item_info_mouseover.wav"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"o1"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"scaleImage"	"1"
+			"image"			"glyph_items"
+		}
+	}
+
+
+
+	"TauntLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TauntLoadoutButton"
+		"labelText"		""
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"tauntloadout"
+
+		"pin_to_sibling"	"CharacterLoadoutButton"
+		"pin_to_sibling_corner"	"1"
+		
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"236 227 203 255"
+		
+		"border_selected"		"MustaBrownBG"
+		"border_depressed"		"MustaBrownBG"
+		"border_armed"		"MustaBrownBG"
+		"border_default"		"MustaBrownBG"
+		
+		"paintbackground"	"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/item_info_mouseover.wav"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"o1"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/glyphs/glyph_camera"
+		}
+	}
+
 	
 	"BlueSkin"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BlueSkin"
-		"xpos"			"c78"
-		"ypos"			"31"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"22"
 		"tall"			"22"
@@ -503,6 +644,9 @@
 		"paintbackground"	"0"
 		"textAlignment"	"center"
 		"labelText"		"B"
+
+		"pin_to_sibling"	"TauntLoadoutButton"
+		"pin_to_sibling_corner"	"1"
 		
 		"defaultfgcolor_override"	"HealthBgGrey"
 		
@@ -523,8 +667,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RedSkin"
-		"xpos"			"c55"
-		"ypos"			"31"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"22"
 		"tall"			"22"
@@ -535,6 +679,9 @@
 		"paintbackground"	"0"
 		"textAlignment"	"center"
 		"labelText"		"R"
+
+		"pin_to_sibling"	"BlueSkin"
+		"pin_to_sibling_corner"	"1"
 		
 		"defaultfgcolor_override"	"HealthBgGrey"
 		
@@ -549,22 +696,30 @@
 		"border_default"		"MustaRedBG"
 		"scaleImage"	"1"	
 	}
+
+	"pinner"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"pinner"
+		"xpos"			"0"
+	}
 	
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"c-130"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"130"
-		"tall"			"22"
+		"wide"			"f0"
+		"tall"			"f27"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
+		"proportionaltoparent"	"0"
 	}
 	
 	"PresetsExplanation"
@@ -710,107 +865,6 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
-
-	"CharacterLoadoutButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		""
-		"xpos"			"c-100"
-		"ypos"			"31"
-		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"22"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"characterloadout"
-		
-		"border_selected"		"MustaBrownBG"
-		"border_depressed"		"MustaBrownBG"
-		"border_armed"		"MustaBrownBG"
-		"border_default"		"MustaBrownBG"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-		
-		"paintbackground"	"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}
-	}
-
-
-
-	"TauntLoadoutButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
-		"xpos"			"c-78"
-		"ypos"			"31"
-		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"22"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"tauntloadout"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-		
-		"border_selected"		"MustaBrownBG"
-		"border_depressed"		"MustaBrownBG"
-		"border_armed"		"MustaBrownBG"
-		"border_default"		"MustaBrownBG"
-		
-		"paintbackground"	"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/glyphs/glyph_camera"
-		}
-	}
-
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"

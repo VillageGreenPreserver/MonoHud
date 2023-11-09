@@ -91,7 +91,7 @@
 		"width"			"200"
 		"tabxindent"	"0"
 		"tabxdelta"		"0"
-		"tabwidth"		"64"
+		"tabwidth"		"63"
 		"tabxfittotext"		"0"
 		"tabheight"		"14"
 		"tabheight_small"		"140"
