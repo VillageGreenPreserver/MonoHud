@@ -628,6 +628,69 @@
 		"pin_to_sibling"	"M_sniper"
 		"pin_to_sibling_corner"	"2"
 	}
+	"scoutbind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&1"
+		"Command"			"loadout scout"
+	}
+	"soldierbind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&2"
+		"Command"			"loadout soldier"
+	}
+	"pyrobind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&3"
+		"Command"			"loadout pyro"
+	}
+	"demobind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&4"
+		"Command"			"loadout demoman"
+	}
+	"heavybind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&5"
+		"Command"			"loadout heavy"
+	}
+	"engiebind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&6"
+		"Command"			"loadout engineer"
+	}
+	"medicbind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&7"
+		"Command"			"loadout medic"
+	}
+	"sniperbind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&8"
+		"Command"			"loadout sniper"
+	}
+	"spybind"
+	{
+		"ControlName"		"CExButton"
+		"xpos"				"r0"
+		"labelText"			"&9"
+		"Command"			"loadout spy"
+	}
 	
 	"ShowBackpackButton"
 	{
