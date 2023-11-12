@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Futura20"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -60,7 +60,7 @@
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"1"
 		}
 	}
@@ -74,7 +74,7 @@
 		"ypos"				"170"
 		"zpos"				"1"
 		"wide"				"220"
-		"tall"				"15"
+		"tall"				"22"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -85,6 +85,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
+		"border"			"MustaBrownBG"
 		
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"251 235 202 0"
@@ -110,7 +111,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Futura18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -118,6 +119,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"MustaBrownBG"
 	}
 	
 	"OkButton"
@@ -135,7 +137,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_OK"
-		"font"			"HudFontSmallBold"
+		"font"			"Futura18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -143,5 +145,6 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"MustaBrownBG"
 	}
 }

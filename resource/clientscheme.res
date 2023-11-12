@@ -6139,7 +6139,7 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset 0 0"
+					"offset" "0 0"
 				}
 				"2"
 				{
@@ -6157,7 +6157,7 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset 0 1"
+					"offset" "0 1"
 				}
 			}
 			Bottom
@@ -6165,7 +6165,7 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset 0 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -6178,7 +6178,7 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset 1 0"
+					"offset" "1 0"
 				}
 			}
 			Bottom
@@ -6186,7 +6186,7 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset 0 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -6209,6 +6209,30 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/thumbnails/color_panels/color_panel_brown_top"
+			"src_corner_height"		"60"
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"	
+			"draw_corner_height" 	"6"
+		}
+
+		MustaBrownBottomBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/color_panels/color_panel_brown_bottom"
+			"src_corner_height"		"60"
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"	
+			"draw_corner_height" 	"6"
+		}
+
+		MustaBrownBottomLineBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/color_panels/color_panel_brown_bottom_line"
 			"src_corner_height"		"60"
 			"src_corner_width"		"60"
 			"draw_corner_width"		"6"	
@@ -6241,6 +6265,18 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/thumbnails/color_panels/color_panel_brown_square"
+			"src_corner_height"		"60"
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"	
+			"draw_corner_height" 	"6"
+		}
+		
+		MustaBrownSquareSlimBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/color_panels/color_panel_brown_square_slim"
 			"src_corner_height"		"60"
 			"src_corner_width"		"60"
 			"draw_corner_width"		"6"	

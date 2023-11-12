@@ -1,0 +1,56 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/menu/soldier/soldier1"
+	"$detail"	"vgui/replay/thumbnails/menu/stats/soldier"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$translucent" 1
+	"$rampvar"	"[0 0]"
+	"$rampvar2"	"[0 0]"
+	"$scalevar" "[9.0 1.0]"
+	"$scalevar2" "[1.0 1.0]"
+	"$rotvar" "0.0"
+	"$centvar" "[0.5 0.5]"
+
+	"$detailscale" "1"
+	"$detailblendmode" "9"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "27" 
+		}
+		"LinearRamp"
+		{
+			"rate"	"-0.9"
+			"initialvalue"	"0"
+			"resultvar" "$rampvar[0]"
+		}
+		"LinearRamp"
+		{
+			"rate"	"-0.1"
+			"initialvalue"	"0"
+			"resultvar" "$rampvar2[0]"
+		}
+		"TextureTransform"
+		{
+			"translatevar"	"$rampvar"
+			"scalevar"		"$scalevar"
+			"rotateVar"		"$rotvar"
+			"centervar"		"$centvar"
+			"resultvar" "$basetexturetransform"
+		}
+		"TextureTransform"
+		{
+			"translatevar"	"$rampvar2"
+			"scalevar"		"$scalevar2"
+			"rotateVar"		"$rotvar"
+			"centervar"		"$centvar"
+			"resultvar" "$detailtexturetransform"
+		}
+	}
+} 
+

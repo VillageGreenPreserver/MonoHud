@@ -225,11 +225,11 @@
 
 	"BackButton2"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"BackButton2"
 		"xpos"			"c-294"
 		"ypos"			"r46"
-		"wide"			"32"
+		"wide"			"128"
 		"tall"			"32"
 		"zpos"			"2"
 		"autoResize"	"0"
@@ -237,8 +237,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"Futura18"
+		"labelText"		"BACK"
+		"font"			"Futura22"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -259,26 +259,6 @@
 		"defaultbgColor_override" "0 0 0 0"
 		"armedbgColor_override" "0 0 0 0"
 		"depressedbgColor_override" "0 0 0 0"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-		"image_disabledcolor"	"117 107 94 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"icon_resume"
-			"proportionaltoparent"	"1"
-		}
 	}
 
 	"BackShortcut"
@@ -300,7 +280,7 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
+		"xpos"			"cs-1+294"
 		"ypos"			"10"
 		"zpos"			"10000"
 		"wide"			"190"

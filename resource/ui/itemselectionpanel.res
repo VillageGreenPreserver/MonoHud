@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"500"
-		"wide"			"f0"
-		"tall"			"400"
+		"wide"			"460"
+		"tall"			"356"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,16 +17,16 @@
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"46 43 42 0"
 		
-		"item_ypos"		"54"
+		"item_ypos"		"27"
 		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-287" //-285
-		"item_backpack_xdelta"			"6"
-		"item_backpack_ydelta"			"6"
+		"item_backpack_offcenter_x"		"-225" //-285
+		"item_backpack_xdelta"			"0"
+		"item_backpack_ydelta"			"0"
 
 		"modelpanels_selection_kv"
 		{
-			"wide"				"91" //79
-			"tall"				"68" //59
+			"wide"				"75" //79
+			"tall"				"73" //59
 			"model_xpos"		"9"
 			"model_wide"		"72"//75  413
 			"model_tall"		"48"
@@ -35,8 +35,8 @@
 			"text_forcesize"	"2"
 			"text_center"		"0"
 			"text_yoffset"		"2"
-			"inset_eq_y"		"55"
-			"inset_eq_x"		"52"
+			"inset_eq_y"		"62"
+			"inset_eq_x"		"20"
 
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
@@ -46,16 +46,14 @@
 				"allow_rot"				"0"
 				"inventory_image_type"	"1"
 			}
-			
-			
 		}
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"100"
 			"ypos"			"270"
-			"wide"			"52" //44
-			"tall"			"42" //42
+			"wide"			"45" //44
+			"tall"			"43" //42
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
@@ -63,9 +61,10 @@
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
+			"model_center_y"	"1"
 			"model_ypos"	"5" 
-			"model_wide"	"46" //50
-			"model_tall"	"32"
+			"model_wide"	"45" //50
+			"model_tall"	"26"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -97,19 +96,19 @@
 			"fgcolor"		"153 204 255 255"
 		}
 	}
-	
+
 	"BG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"133"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"54"
+		"wide"			"460"
 		"tall"			"356"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/color_panels/color_panel_brown_bottom_left"
+		"image"			"replay/thumbnails/color_panels/color_panel_brown_full_top"
 		"scaleImage"	"1"
 		"src_corner_height"		"60"
 		"src_corner_width"		"60"
@@ -118,25 +117,6 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"BG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BG2"
-		"xpos"			"187" //133
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"534"
-		"tall"			"356"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/color_panels/color_panel_brown_loadout_right"
-		"scaleImage"	"1"
-		"src_corner_height"		"60"
-		"src_corner_width"		"60"
-		"draw_corner_width"		"6"	
-		"draw_corner_height" 	"6"
-		"proportionaltoparent"	"1"
-	}
 	
 	"CaratLabel"
 	{
@@ -160,18 +140,22 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura32"
+		"font"			"Futura24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"148"
-		"ypos"			"0"
+		"fgcolor"		"TanLight"
+		"xpos"			"5"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"581"
-		"tall"			"54"
+		"wide"			"200"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"allcaps"		"1"
+		"auto_wide_tocontents"	"1"
 	}
 
 	"NameFilterLabel"
@@ -181,14 +165,14 @@
 		"font"			"Futura16"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"565"
-		"ypos"			"16"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"		"0"
 		"fgcolor"		"TanLight"
@@ -198,8 +182,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"FilterBG"
-		"xpos"			"613"
-		"ypos"			"16"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"101"
 		"tall"			"22"
@@ -212,14 +196,15 @@
 		"draw_corner_width"		"6"	
 		"draw_corner_height" 	"6"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"NameFilterTextEntry"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"614"
-		"ypos"		"16"
+		"xpos"		"rs1-8"
+		"ypos"		"5"
 		"zpos"		"2"
 		"wide"		"100"
 		"tall"		"22"
@@ -234,6 +219,7 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"0 0 0 0"
 		"paintbackgroundtype" "2"
+		"proportionaltoparent"	"1"
 		"font"		"Futura14"
 	}
 	
@@ -272,18 +258,24 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"Futura32"
+		"font"			"Futura24"
 		"labelText"		"Items" //#PrimaryWeapon
-		"textAlignment"	"east"
-		"xpos"			"c0"
+		"textAlignment"	"west"
+		"fgcolor"		"TanLight"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"287"
-		"tall"			"53"
+		"wide"			"200"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"allcaps"		"1"
+		"pin_to_sibling"	"ClassLabel"
+		"pin_to_sibling_corner"	"1"
+		"auto_wide_tocontents"	"1"
 	}
 
 	"NoItemsLabel"
@@ -294,10 +286,10 @@
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"54"
+		"ypos"			"246"
 		"zpos"			"10"
 		"wide"			"570"
-		"tall"			"219"
+		"tall"			"83"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -338,10 +330,10 @@
 		"labelText"		"#OnlyAllowUniqueQuality"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"258"
-		"ypos"			"328"
+		"xpos"			"124"
+		"ypos"			"rs1-5"
 		"zpos"			"1"
-		"wide"			"290"
+		"wide"			"243"
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -349,14 +341,15 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"proportionaltoparent"	"1"
 	}	
 	
 	"ShowBackpack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"139"
-		"ypos"			"328"
+		"xpos"			"5"
+		"ypos"			"rs1-5"
 		"zpos"			"20"
 		"wide"			"119"
 		"tall"			"22"
@@ -368,6 +361,7 @@
 		"labelText"		"#Selection_ShowBackpack"
 		"font"			"Futura14"
 		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_backpack"
@@ -387,8 +381,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"139"
-		"ypos"			"328"
+		"xpos"			"5"
+		"ypos"			"rs1-5"
 		"zpos"			"20"
 		"wide"			"119"
 		"tall"			"22"
@@ -400,6 +394,7 @@
 		"labelText"		"#Selection_ShowSelection"
 		"font"			"Futura14"
 		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"show_selection"
@@ -414,27 +409,12 @@
 		"paintbackground"	"0"
 	}
 	
-	"PrevPageShortcut"
-	{
-		"ControlName"		"Button"
-		"fieldName"			"PrevPageShortcut"
-		"xpos"				"r999"
-		"ypos"				"r999"
-		"zpos"				"1"
-		"wide"				"1"
-		"tall"				"1"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"prevpage"
-		"labelText"			"&A"
-	}
-	
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c200"
-		"ypos"			"328"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"22"
 		"tall"			"22"
@@ -443,10 +423,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"Futura24"
+		"labelText"		"&A"
+		"font"			"Futura20"
 		"textAlignment"	"center"
-		"textinsety"	"-5"
+		"textinsety"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
@@ -462,6 +442,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling"	"CurPageLabel"
 	}			
 	
 	"CurPageLabel"
@@ -471,8 +453,8 @@
 		"font"			"Futura16"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c222"
-		"ypos"			"328"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"22"
@@ -481,29 +463,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
-	}
-	
-	"NextPageShortcut"
-	{
-		"ControlName"		"Button"
-		"fieldName"			"NextPageShortcut"
-		"xpos"				"r999"
-		"ypos"				"r999"
-		"zpos"				"1"
-		"wide"				"1"
-		"tall"				"1"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"nextpage"
-		"labelText"			"&D"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling"	"NextPageButton"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c266"
-		"ypos"			"328"
+		"xpos"			"rs1-5"
+		"ypos"			"rs1-5"
 		"zpos"			"1"
 		"wide"			"22"
 		"tall"			"22"
@@ -512,15 +481,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"Futura24"
+		"labelText"		"&D"
+		"font"			"Futura20"
 		"textAlignment"	"center"
-		"textinsety"	"-5"
+		"textinsety"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
 		"border_default"	"MustaBrownBG"
 		"border_disabled"	"NoBorder"
+		"proportionaltoparent"	"1"
 		"paintBackground"	"0"
 		"fgcolor"			"TanDark"
 		"defaultfgColor_override" "TanDark"

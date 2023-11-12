@@ -15,20 +15,24 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
-	
-	"Bg"
+
+	"BG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Bg"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"260"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"460"
+		"tall"			"356"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"1"
-		"border"		"MustaBrownBG"
+		"image"			"replay/thumbnails/color_panels/color_panel_brown_full_top"
+		"scaleImage"	"1"
+		"src_corner_height"		"60"
+		"src_corner_width"		"60"
+		"draw_corner_width"		"6"	
+		"draw_corner_height" 	"6"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -41,7 +45,7 @@
 		"zpos"			"-1"
 		"wide"			"420"
 		"tall"			"365"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"1"
 		"image"		"outer_shadow_border"
@@ -49,12 +53,33 @@
 		"scaleimage"	"1"
 	}
 	
+	
+	"ClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabel"
+		"font"			"Futura32"
+		"labelText"		"INSPECT"
+		"textAlignment"	"center"
+		"xpos"			"5"
+		"ypos"			"5" //8
+		"zpos"			"1"
+		"wide"			"p0.39033816425120772946859903381643"
+		"proportionaltoparent"	"1"
+		"tall"			"44"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"MustaBrownBG"
+	}
+	
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c127"
-		"ypos"			"c-127"
+		"xpos"			"rs1-5"
+		"ypos"			"5"
 		"zpos"			"6"
 		"wide"			"20"
 		"tall"			"20"
@@ -104,8 +129,8 @@
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
-		"xpos"			"cs-0.5"
-		"ypos"			"c-130"
+		"xpos"			"5"
+		"ypos"			"49"
 		"zpos"			"7"
 		"wide"			"300"
 		"tall"			"30"
@@ -137,8 +162,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelBorder"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"5"
+		"ypos"			"49"
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"260"
@@ -153,8 +178,8 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"5"
+		"ypos"			"49"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"260"
@@ -169,7 +194,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"50"
+		"fov"					"60"
 
 		"model"
 		{
@@ -224,7 +249,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-0.5"
+		"xpos"				"125"
 		"ypos"				"c108"
 		"zpos"				"100"
 		"wide"				"60"
@@ -327,10 +352,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"c123"
-		"ypos"			"c-150"
-		"wide"			"200" //144
-		"tall"			"140" //100
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0" //144
+		"tall"			"f0" //100
 		"zpos"			"0"
 		"paintborder"		"0"
 		"mouseinputenabled"	"1"
@@ -362,7 +387,7 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"paintborder"	"1"
 			"image"		"outer_shadow_border"
@@ -379,7 +404,7 @@
 			"zpos"			"0"
 			"wide"			"144"
 			"tall"			"100"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"paintborder"	"1"
 			"image"		"../hud/color_panel_brown_opaque"
@@ -447,13 +472,13 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"HudFontSmallest"
+			"Font"				"Futura12"
 			"wrap"				"0"
-			"xpos"				"cs-0.5"
-			"ypos"				"23"
+			"xpos"				"185"
+			"ypos"				"5"
 			"zpos"				"100"
-			"wide"				"138"
-			"tall"				"16"
+			"wide"				"120"
+			"tall"				"22"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -466,6 +491,7 @@
 			"default"			"0"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
+			"border"			"MustaBrownBG"
 
 			"fixed_paintkit"
 			{
@@ -508,17 +534,17 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"HudFontSmallest"
+			"Font"				"Futura12"
 			"wrap"				"0"
-			"xpos"				"cs-0.5"
-			"ypos"				"40"
+			"xpos"				"185"
+			"ypos"				"27"
 			"fixed_paintkit"
 			{
 				"ypos"		"10"
 			}
 			"zpos"				"100"
-			"wide"				"138"
-			"tall"				"16"
+			"wide"				"120"
+			"tall"				"22"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -530,6 +556,7 @@
 			"unicode"			"0"
 			"default"			"0"
 			"actionsignallevel"	"2"
+			"border"			"MustaBrownBG"
 
 			"fixed_item"
 			{
@@ -583,15 +610,15 @@
 		{
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
-			"xpos"			"cs-0.5"
-			"ypos"			"58"
+			"xpos"			"307"
+			"ypos"			"6"
 			"fixed_item"
 			{
 				"ypos"		"30"
 			}
 			"zpos"			"1"
-			"wide"			"138"
-			"tall"			"30"
+			"wide"			"126"
+			"tall"			"22"
 			"numticks"		"4"
 			"rangemin"		"1"
 			"rangemax"		"5"
@@ -647,8 +674,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"NewSeedButton"
-			"xpos"			"cs-1"
-			"ypos"			"76"
+			"xpos"			"305"
+			"ypos"			"27"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -658,8 +685,8 @@
 				"ypos"		"30"
 			}
 			"zpos"			"10"
-			"wide"			"69"
-			"tall"			"20"
+			"wide"			"64"
+			"tall"			"22"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -667,12 +694,12 @@
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
 			"proportionaltoparent"	"1"
-			"font"			"HudFontSmallest"
+			"font"			"Futura12"
 			"paintbackground"	"0"
 			"paintborder"	"1"
 			
@@ -698,11 +725,11 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"SeedBG"
-			"xpos"			"cs-1"
-			"ypos"			"76"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"9"
-			"wide"			"69"
-			"tall"			"20"
+			"wide"			"64"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
@@ -714,14 +741,15 @@
 				
 			"draw_corner_width"		"6"	
 			"draw_corner_height" 	"6"	
+			"pin_to_sibling"	"NewSeedButton"
 		}
 
 		"SeedTextEntry"
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
-			"xpos"			"cs-0.5"
-			"ypos"			"97"
+			"xpos"			"305"
+			"ypos"			"49"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -731,8 +759,8 @@
 				"ypos"		"30"
 			}
 			"zpos"			"10"
-			"wide"			"138"
-			"tall"			"20"
+			"wide"			"128"
+			"tall"			"22"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -754,8 +782,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"xpos"		"c0"
-			"ypos"			"76"
+			"xpos"		"369"
+			"ypos"			"27"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -765,15 +793,15 @@
 				"ypos"		"30"
 			}
 			"zpos"		"100"
-			"wide"		"69"
-			"tall"		"20"
-			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"HudFontSmallest"
-			"textinsetx"		"0"
-			"textAlignment"	"center"
+			"wide"		"64"
+			"tall"		"22"
+			"labelText"			"Market"
+			"font"			"Futura12"
+			"textAlignment"	"west"
 		
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
+			"paintBorder"	"1"
 			"command"	"market"
 			"actionsignallevel" "2"
 			"RoundedCorners"	"0"
@@ -782,6 +810,7 @@
 			"armedFgColor_override"		"TanLight"
 
 			"border_default"	"MustaBrownBG"
+			"textinsetx"	"6"
 
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"
@@ -794,11 +823,11 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"MarketBG"
-			"xpos"			"cs0"
-			"ypos"			"76"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"9"
-			"wide"			"69"
-			"tall"			"20"
+			"wide"			"64"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
@@ -810,6 +839,8 @@
 				
 			"draw_corner_width"		"6"	
 			"draw_corner_height" 	"6"	
+
+			"pin_to_sibling"	"MarketButton"
 		}
 	}
 }

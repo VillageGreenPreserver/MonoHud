@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"235"
+		"xpos"			"c-191"
 		"ypos"			"r45"
 		"zpos"			"4"
 		"wide"			"24"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudHealthImageBG"
-		"xpos"			"234"
+		"xpos"			"c-192"
 		"ypos"			"r46"
 		"zpos"			"2"
 		"wide"			"26"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"CImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"239"
+		"xpos"			"c-187"
 		"ypos"			"r41"
 		"zpos"			"1"
 		"wide"			"16"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"244"
+		"xpos"			"c-183"
 		"ypos"			"r50"
 		"zpos"			"5"
 		"wide"			"96"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"247"
+		"xpos"			"c-180"
 		"ypos"			"r48"
 		"zpos"			"5"
 		"wide"			"96"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudHealthBG"
-		"xpos"			"231"
+		"xpos"			"c-196"
 		"ypos"			"r50"
 		"zpos"			"1"
 		"wide"			"96"
@@ -134,7 +134,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HealthLabel"
-		"xpos"			"231"
+		"xpos"			"c-196"
 		"ypos"			"r60"
 		"zpos"			"0"
 		"wide"			"26"
@@ -155,7 +155,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LowHealthLabel"
-		"xpos"			"231"
+		"xpos"			"c-196"
 		"ypos"			"r60"
 		"zpos"			"0"
 		"wide"			"26"
@@ -177,7 +177,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"231"
+		"xpos"			"c-196"
 		"ypos"			"r21"
 		"zpos"			"0"
 		"wide"			"1"
@@ -667,7 +667,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoLabel"
-		"xpos"			"r326"
+		"xpos"			"c101"
 		"ypos"			"r60"
 		"zpos"			"0"
 		"zpos"			"0"
@@ -688,7 +688,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"r326"
+		"xpos"			"c101"
 		"ypos"			"r50"
 		"zpos"			"1"
 		"wide"			"86"

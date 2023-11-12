@@ -84,7 +84,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownTopBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -147,7 +147,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -213,7 +213,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -279,7 +279,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -345,7 +345,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -411,7 +411,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -477,7 +477,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -543,7 +543,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -609,7 +609,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownBottomLineBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -627,282 +627,6 @@
 
 		"pin_to_sibling"	"M_sniper"
 		"pin_to_sibling_corner"	"2"
-	}
-	"FooterBP"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FooterBP"
-		"xpos"				"32"
-		"ypos"				"rs1-51" //9 units margin
-		"zpos"				"6"
-		"wide"				"32"
-		"tall"				"32"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"center"
-		"Command"			"backpack"
-		"Default"			"0"
-		"font"				"Futura14"
-		"proportionaltoparent"	"1"
-		
-		"paintbackground"	"0"
-		"border_default"	"MustaBrownBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		
-		"fgcolor"			"Blank"
-		"defaultfgColor_override" "Blank"
-		"armedfgColor_override" "Blank"
-		"depressedfgColor_override" "Blank"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
-	"FooterCrafting"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FooterCrafting"
-		"xpos"				"0"
-		"ypos"				"0" //9 units margin
-		"zpos"				"6"
-		"wide"				"32"
-		"tall"				"32"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"center"
-		"Command"			"crafting"
-		"Default"			"0"
-		"font"				"Futura14"
-		"proportionaltoparent"	"1"
-		
-		"paintbackground"	"0"
-		"border_default"	"MustaBrownBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		"tooltip"			"Crafting"
-		
-		"fgcolor"			"Blank"
-		"defaultfgColor_override" "Blank"
-		"armedfgColor_override" "Blank"
-		"depressedfgColor_override" "Blank"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-
-		"pin_to_sibling"	"FooterBP"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner" "1"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_steamworkshop"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
-	"FooterCatalog"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FooterCatalog"
-		"xpos"				"0"
-		"ypos"				"0" //9 units margin
-		"zpos"				"6"
-		"wide"				"32"
-		"tall"				"32"
-		"autoResize"		"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"center"
-		"Command"			"armory"
-		"Default"			"0"
-		"font"				"Futura14"
-		"proportionaltoparent"	"1"
-		
-		"paintbackground"	"0"
-		"border_default"	"MustaBrownBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		"tooltip"			"Crafting"
-		
-		"fgcolor"			"Blank"
-		"defaultfgColor_override" "Blank"
-		"armedfgColor_override" "Blank"
-		"depressedfgColor_override" "Blank"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-
-		"pin_to_sibling"	"FooterTrading"
-		"pin_corner_to_sibling"	"1"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"cyoa/cyoa_directory_icon"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
-	"FooterTrading"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FooterTrading"
-		"xpos"				"0"
-		"ypos"				"0" //9 units margin
-		"zpos"				"6"
-		"wide"				"32"
-		"tall"				"32"
-		"autoResize"		"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"center"
-		"Command"			"trading"
-		"Default"			"0"
-		"font"				"Futura14"
-		"proportionaltoparent"	"1"
-		
-		"paintbackground"	"0"
-		"border_default"	"MustaBrownBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		"tooltip"			"Crafting"
-		
-		"fgcolor"			"Blank"
-		"defaultfgColor_override" "Blank"
-		"armedfgColor_override" "Blank"
-		"depressedfgColor_override" "Blank"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-
-		"pin_to_sibling"	"FooterPaint"
-		"pin_corner_to_sibling"	"1"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/menu/trade_icon"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
-	"FooterPaint"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FooterPaint"
-		"xpos"				"556"
-		"ypos"				"rs1-51" //9 units margin
-		"zpos"				"6"
-		"wide"				"32"
-		"tall"				"32"
-		"autoResize"		"0"
-		"pincorner"		"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"center"
-		"Command"			"paintkit_preview"
-		"Default"			"0"
-		"font"				"Futura14"
-		"proportionaltoparent"	"1"
-		
-		"paintbackground"	"0"
-		"border_default"	"MustaBrownBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		"tooltip"			"Crafting"
-		
-		"fgcolor"			"Blank"
-		"defaultfgColor_override" "Blank"
-		"armedfgColor_override" "Blank"
-		"depressedfgColor_override" "Blank"
-		
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"236 227 203 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"28"
-			"tall"			"28"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/menu/paint_icon"
-			"proportionaltoparent"	"1"
-		}
 	}
 	
 	"ShowBackpackButton"
@@ -951,7 +675,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownTopBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1037,7 +761,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1124,7 +848,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1211,7 +935,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownSquareSlimBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1299,7 +1023,7 @@
 		"Default"			"0"
 		"font"				"Futura14"
 		
-		"border_default"	"MustaBrownBG"
+		"border_default"	"MustaBrownBottomLineBG"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1533,6 +1257,31 @@
 		"eatmouseinput"	"0"	
 
 		"pin_to_sibling"	"bppin"
+	}
+	
+	"armory_panel"
+	{
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"128"
+		"ypos"				"0"
+		"wide"				"460"
+		"tall"				"356"
+		"zpos"				"500"
+		"visible"			"0"
+	}
+
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"128"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"460"
+		"tall"			"356"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 0"
 	}
 
 	"ShowExplanationsButton"
@@ -3018,30 +2767,5 @@
 			"fgcolor_override" "200 80 60 255"
 		}
 	}	
-	
-	"armory_panel"
-	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"356"
-		"zpos"				"500"
-		"visible"			"0"
-	}
-
-	"InspectionPanel"
-	{
-		"fieldName"		"InspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"2000"
-		"wide"			"f0"
-		"tall"			"356"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 0"
-	}
 
 }

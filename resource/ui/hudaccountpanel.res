@@ -2,9 +2,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"16"
-		"delta_item_start_y"	"28"
-		"delta_item_end_y"		"-4"
+		"delta_item_x"			"198"
+		"delta_item_start_y"	"400"
+		"delta_item_end_y"		"360"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"0 255 0 255"
 		"delta_lifetime"		"1.5"
@@ -16,8 +16,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AccountBG"
-		"xpos"			"0"
-		"ypos"			"50"
+		"xpos"			"188"
+		"ypos"			"r50"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"34"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"0"
-		"ypos"			"50"
+		"xpos"			"188"
+		"ypos"			"r50"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"34"
@@ -80,8 +80,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"3"
-		"ypos"			"52"
+		"xpos"			"191"
+		"ypos"			"r48"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"34"
@@ -101,8 +101,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MetalLabel"
-		"xpos"			"0"
-		"ypos"			"40"
+		"xpos"			"188"
+		"ypos"			"r60"
 		"zpos"			"0"
 		"zpos"			"0"
 		"wide"			"24"

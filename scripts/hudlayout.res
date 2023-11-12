@@ -16,11 +16,11 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r326"
-		"ypos"	"r60"
+		"xpos"	"0"
+		"ypos"	"0"
 		"zpos"	"1"
-		"wide"	"86"
-		"tall"	"44"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -71,9 +71,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r430"
+		"xpos"			"c-18"
 		"ypos"			"274"
-		"wide"			"200"
+		"wide"			"p0.5"
 		"tall"			"191"
 	}
 	
@@ -185,10 +185,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r239"
-		"ypos"					"r100"
-		"wide"					"80"
-		"tall"  				"84"
+		"xpos"					"c0"
+		"ypos"					"0"
+		"wide"					"p0.5"
+		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -225,7 +225,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"-20"
 		"zpos"		"-1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -1001,7 +1001,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r239"
+		"xpos"			"c188"
 		"ypos"			"r60"
 		"wide"			"44"
 		"tall"			"44"
