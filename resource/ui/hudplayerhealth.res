@@ -47,8 +47,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudHealthImageBG"
-		"xpos"			"c-192"
-		"ypos"			"r46"
+		"xpos"			"1"
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"26"
 		"tall"	 		"26"
@@ -60,6 +60,8 @@
 		"src_corner_width"		"60"
 		"draw_corner_width"		"6"
 		"draw_corner_height" 	"6"
+
+		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
