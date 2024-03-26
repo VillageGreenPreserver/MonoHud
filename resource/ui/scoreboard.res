@@ -664,7 +664,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"320"
+			"ypos"			"c105"
 			"visible"		"1"
 		}
 	}	
@@ -1180,7 +1181,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
