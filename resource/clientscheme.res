@@ -291,6 +291,7 @@ Scheme
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"Orange"
 		FrameTitleBar.DisabledBgColor	"Blank"
+		Frame.ClientInsetY				"0"
 
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
