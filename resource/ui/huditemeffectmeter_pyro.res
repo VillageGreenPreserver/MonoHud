@@ -28,6 +28,8 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red_opaque"
 		"teambg_3"		"../hud/color_panel_blu_opaque"
+		"teambg_2_minmode"		"../hud/color_panel_brown_opaque"
+		"teambg_3_minmode"		"../hud/color_panel_brown_opaque"
 		"src_corner_height"		"60"
 		"src_corner_width"		"60"
 		"draw_corner_width"		"6"
@@ -90,5 +92,17 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}				
+
+	"Modulate"
+	{
+		"ControlName"			"ImagePanel"
+		"wide"					"36"
+		"tall"					"6"
+		"zpos"					"3"
+		"image"					"replay/thumbnails/modulate"
+		"scaleImage"			"1"
+		"drawcolor"				"TanLight"
+		"pin_to_sibling"		"ItemEffectMeter"
+	}			
 }

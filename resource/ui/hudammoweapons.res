@@ -1,27 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"0"
-		"ypos"			"50"
-		"zpos"			"1"
-		"wide"			"75"
-		"tall"			"33"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red_opaque"
-		"teambg_3"		"../hud/color_panel_blu_opaque"		
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-		"src_corner_width"		"60"
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -159,6 +137,9 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red_opaque"
 		"teambg_3"		"../hud/color_panel_blu_opaque"		
+
+		"teambg_2_minmode"		"../hud/color_panel_brown_opaque"
+		"teambg_3_minmode"		"../hud/color_panel_brown_opaque"
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional

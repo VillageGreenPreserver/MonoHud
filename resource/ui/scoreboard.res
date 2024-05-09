@@ -1519,7 +1519,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Deaths"
@@ -1537,7 +1538,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}	
 		"GameType"
@@ -1573,7 +1575,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Destruction"
@@ -1591,7 +1594,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"CapturesLabel"
@@ -1677,7 +1681,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Defenses"
@@ -1695,7 +1700,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Domination"
@@ -1713,7 +1719,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Revenge"
@@ -1731,7 +1738,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"HealingLabel"
@@ -1817,7 +1825,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Invuln"
@@ -1835,7 +1844,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Teleports"
@@ -1853,7 +1863,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"Headshots"
@@ -1871,7 +1882,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}						
 		"BackstabsLabel"
@@ -1906,7 +1918,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}		
 		"BonusLabel"
@@ -1942,7 +1955,8 @@
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}
 		"SupportLabel"
@@ -1977,7 +1991,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}
 		"DamageLabel"
@@ -2012,7 +2027,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
+			"disabledfgcolor2_override"	"TanLight"
 			"textinsetx"	"6"
 		}
 	}

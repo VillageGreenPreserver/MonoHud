@@ -1,3 +1,5 @@
+#base	"../../customizations/hitmarker.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -69,6 +71,10 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red_opaque"
 		"teambg_3"		"../hud/color_panel_blu_opaque"
+
+		"teambg_2_minmode"		"../hud/color_panel_brown_opaque"
+		"teambg_3_minmode"		"../hud/color_panel_brown_opaque"
+
 		"src_corner_height"		"60"
 		"src_corner_width"		"60"
 		"draw_corner_width"		"6"
@@ -91,6 +97,10 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red_opaque"
 		"teambg_3"		"../hud/color_panel_blu_opaque"
+
+		"teambg_2_minmode"		"../hud/color_panel_brown_opaque"
+		"teambg_3_minmode"		"../hud/color_panel_brown_opaque"
+		
 		"src_corner_height"		"60"
 		"src_corner_width"		"60"
 		"draw_corner_width"		"6"
@@ -356,20 +366,4 @@
 		"auto_wide_tocontents"	"1"
 	}
 
-	"hitmarker"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"hitmarker"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1"		
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"alpha"			"0"
-		"teambg_2"		"replay/thumbnails/hitmarker_red"
-		"teambg_3"		"replay/thumbnails/hitmarker_blue"
-	}	
 }

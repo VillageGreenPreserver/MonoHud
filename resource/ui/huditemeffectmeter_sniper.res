@@ -27,6 +27,8 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red_opaque"
 		"teambg_3"		"../hud/color_panel_blu_opaque"		
+		"teambg_2_minmode"		"../hud/color_panel_brown_opaque"
+		"teambg_3_minmode"		"../hud/color_panel_brown_opaque"
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
 		"src_corner_width"		"60"
