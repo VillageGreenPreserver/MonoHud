@@ -313,15 +313,16 @@
 		
 	"BlueFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
-		"fieldName"		"BlueFlag"
-		"xpos"			"c-100"
-		"ypos"			"r64"
-		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"			"CTFFlagStatus"
+		"fieldName"				"BlueFlag"
+		"xpos"					"c-100"
+		"ypos"					"r64"
+		"zpos"					"5"
+		"wide"					"60"
+		"tall"					"60"
+		"proportionaltoparent"	"1"
+		"visible"				"1"
+		"enabled"				"1"
 		
 		"if_hybrid"
 		{
@@ -348,6 +349,11 @@
 		"if_no_flags"
 		{
 			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"xpos"		"cs-0.5"
 		}
 	}
 
