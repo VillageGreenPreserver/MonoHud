@@ -627,6 +627,8 @@
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
 
+			"thumbwidth"	"3"
+
 			"fixed_paintkit"
 			{
 				"visible"	"0"

@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"20"
-		"avatar_width"		"65"
+		"avatar_width"		"28"
 		"spacer"			"5"
 		"name_width"		"118"
 		"nemesis_width"		"25"
@@ -930,6 +930,7 @@
 			"visible"		"1"
 		}
 	}
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -942,11 +943,11 @@
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"0"
+		"fov"			"30"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
@@ -960,16 +961,16 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "0"
-			"origin_y" "0"
-			"origin_z" "0"
+			"angles_x"			"-5"
+			"angles_y"			"-135"
+			"angles_z"			"-3"
+			"origin_x"			"105"
+			"origin_y"			"12"
+			"origin_z"			"-66"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "0"
+			"spotlight" "1"
 		
 			"modelname"		""
 		}

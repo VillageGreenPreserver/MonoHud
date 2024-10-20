@@ -2456,7 +2456,7 @@
 			"textAlignment"	"north-east"
 			"use_proportional_insets"	"1"
 			"textinsetx"	"2"
-			"textinsety"	"-8"
+			"textinsety"	"-4"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/item_info_mouseover.wav"
