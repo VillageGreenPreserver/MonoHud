@@ -30,7 +30,7 @@
 			"armedbgColor_override" "0 0 0 0"
 			"depressedbgColor_override" "0 0 0 0"
 			
-			"selectedTextcolor"	"255 0 0 255"
+			"selectedTextcolor"	"TanLight"
 			"defaultfgcolor_override" "0 0 0 0"
 			"depressedfgcolor_override" "0 0 0 0"
 			"armedfgcolor_override" "0 0 0 0"

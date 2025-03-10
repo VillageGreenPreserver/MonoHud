@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"zpos"			"10000"
+		"zpos"			"-1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1254,7 +1254,6 @@
 		"zpos"				"7"	
 		"wide"				"460"
 		"tall"				"356"
-		"zpos"				"1"
 		"proportionaltoparent"	"1"
 		"visible"			"0"
 	}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$translucent"			"1"
+	"$baseTexture"			"vgui/replay/thumbnails/color_panels/color_panel_brown_bottom_line"
+	"$vertexalpha"			"1"	
+	"$vertexcolor"			"1"
+	"$basetexturetransform"	"center 0.5 0.5 scale 1 1 rotate 180 translate 0 0"
+}
+

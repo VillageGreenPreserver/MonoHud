@@ -22,7 +22,7 @@
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"-30"
+		"titletextinsetY"	"-50"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -85,18 +85,18 @@
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"xpos"			"c0"
-		"width"			"200"
-		"tabxindent"	"0"
-		"tabxdelta"		"0"
-		"tabwidth"		"63"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"xpos"				"c0"
+		"width"				"200"
+		"tabxindent"		"0"
+		"tabxdelta"			"0"
+		"tabwidth"			"63"
 		"tabxfittotext"		"0"
-		"tabheight"		"14"
-		"tabheight_small"		"140"
-		"transition_time" "0.0"
-		"yoffset"	"37"
+		"tabheight"			"14"
+		"tabheight_small"	"140"
+		"transition_time"	"0.0"
+		"yoffset"			"50"
 
 		"pin_to_sibling"	"Sheet_pin"
 		
@@ -118,7 +118,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"HeaderLine2"
 			"xpos"			"0" //14
-			"ypos"			"51" //31
+			"ypos"			"14" //31
 			"zpos"			"5"
 			"wide"			"128"
 			"tall"			"2"
