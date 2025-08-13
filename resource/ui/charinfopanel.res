@@ -22,7 +22,7 @@
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"-50"
+		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -118,7 +118,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"HeaderLine2"
 			"xpos"			"0" //14
-			"ypos"			"14" //31
+			"ypos"			"64" //31
 			"zpos"			"5"
 			"wide"			"128"
 			"tall"			"2"

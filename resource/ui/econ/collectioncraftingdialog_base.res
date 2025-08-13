@@ -11,6 +11,7 @@
 		"wide"					"f0"
 		"tall"					"446"
 		"paintbackground"		"0"
+		"proportionaltoparent"	"1"
 
 		"buttons_start_x"	"56"
 		"buttons_start_y"	"56"
@@ -194,10 +195,10 @@
 		"ControlName"			"EditablePanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"588"
+		"wide"					"f0"
 		"tall"					"356"
 		"proportionaltoparent"	"1"
 
@@ -210,13 +211,12 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"cs-0.5"
 			"zpos"					"1"
-			"wide"					"528"
+			"wide"					"f20"
 			"tall"					"296"
 			"bgcolor_override"		"46 43 42 0"
 			"paintborder"			"1"
 			"paintbackgroundtype"	"1"
 			"proportionaltoparent"	"1"
-
 			"border"				"MustaBrownBG"
 		}
 	}
@@ -980,7 +980,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"666"
+		"xpos"			"rs1-15"
 		"ypos"			"36"
 		"zpos"			"20"
 		"wide"			"20"
@@ -1052,6 +1052,7 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent" "1"
 	}
 	
 	"ShowExplanationsButton1"

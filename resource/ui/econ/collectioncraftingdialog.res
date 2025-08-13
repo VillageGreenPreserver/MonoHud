@@ -11,7 +11,7 @@
 		"ypos"					"0"
 		"zpos"					"101"
 		"wide"					"f0"
-		"tall"					"446"
+		"tall"					"356"
 		"paintbackground"		"0"
 
 		"buttons_start_x"	"20"
